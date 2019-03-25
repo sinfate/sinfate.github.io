@@ -1,0 +1,59 @@
+.wdw{
+    width: 11.26rem;
+    height: 9.45rem;
+    text-align: center;
+}
+.find{
+    width: 6rem;
+    height: 6rem;
+    margin: 0 auto;
+}
+.find img{
+    width: 100%;
+    height: 100%;
+}
+.wdw{
+    font-size: 0.43rem;
+    font-weight: 300;
+    color: #999;
+}
+.wdw a{
+    display: inline-block;
+    width: 3rem;
+    height: 0.57rem;
+    padding: 0.3rem;
+    background-color: #56d176;
+    line-height: 0.57rem;
+    text-align: center;
+    color: #fff;
+    border-radius:5px;
+}
+.bottomnav{
+    /* width: 11.26rem; */
+    height: 1.365rem;
+    padding-top: 0.135rem;
+    padding-bottom: 0.51rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 -0.05rem 0.5rem rgba(0,0,0,0.1);
+    background-color: #fff;
+}
+.bottomicon{
+    float: left;
+    overflow: hidden;
+    width: 2.81rem;
+    height: 1.02rem;
+    text-align: center;
+    margin-top: 0.3rem;
+}
+.bottomicon span{
+    font-size: 0.32rem;
+    display: block;
+    color: #0089dc;
+}
+.bottomicon i{
+    font-size: 0.62rem;
+    color: #0089dc;
+}

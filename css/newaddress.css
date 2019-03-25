@@ -1,0 +1,126 @@
+body{
+    background-color: rgba(0, 0, 0, 0.03);
+}
+.new-top{
+    width: 11.26rem;
+    height: 1.32rem;
+    background-color: #0085ff;
+}
+.new-back{
+    width: 2rem;
+    height: 1.32rem;
+    line-height: 1.32rem;
+    text-align: center;
+    
+}
+.new-back i{
+    font-size: 0.8rem;
+    line-height: 1.32rem;
+    color: #fff;
+}
+.new-add{
+    width: 3rem;
+    height: 1.32rem;
+    color: #fff;
+    font-size: 0.6rem;
+    font-weight: 500;
+    line-height: 1.32rem;
+    text-align: center;
+    margin-left: 2rem;
+}
+.new-middle{
+    width: 10.81rem;
+    height: 8.4rem;
+    padding-left: 0.45rem;
+    background: #fff;
+}
+.nm{
+    width: 10.8rem;
+    height: 2.84rem;
+}
+.new-left{
+    width: 1.95rem;
+    height: 2rem;
+    padding: 0.42rem 0;
+    font-size: 0.45rem;
+    font-weight: 700;
+}
+.new-right{
+    width: 8.85rem;
+    height: 2.84rem;
+}
+.name{
+    width: 8.85rem;
+    height: 0.53rem;
+    padding: 0.42rem 0;
+}
+.name input{
+    width: 8.4rem;
+    height: 0.54rem;
+    padding-right: 0.45rem;
+    border: 0;
+    font-size: 0.45rem;
+    color: #999;
+}
+.sex{
+    width: 8.85rem;
+    height: 0.86rem;
+    padding: 0.3rem 0;
+}
+.sex span{
+    display: inline-block;
+    width: 2.02rem;
+    height: 0.84rem;
+    border:  1px solid #999;
+    margin-right: 0.3rem;
+    border-radius: 5px;
+    font-size: 0.4rem;
+    line-height: 0.84rem;
+    text-align: center;
+}
+.new-dh{
+    width: 10.8rem;
+    height: 1.37rem;
+    border-bottom: 1px solid #eee;
+}
+.dh{
+    width: 1.95rem;
+    height: 0.53rem;
+    font-size: 0.45rem;
+    font-weight: 700;
+    padding: 0.42rem 0;
+}
+.dh-input{
+    width: 8.85rem;
+    height: 1.37rem;
+}
+.dh-box{
+    width: 8.85rem;
+    height: 0.53rem;
+    padding: 0.42rem 0;
+}
+.dh-box input{
+    border: 0;
+    font-size: 0.45rem;
+    width: 8.4rem;
+    height: 0.54rem;
+    padding-right:0.45rem; 
+    color: #eee;
+}
+.button{
+    width: 10.35rem;
+    height: 1.31rem;
+    padding: 0.6rem 0.45rem;
+}
+.button a{
+    width: 10.35rem;
+    height: 0.56rem;
+    padding: 0.37rem 0;
+    font-size: 0.7rem;
+    display: inline-block;
+    background-color: #00d762;
+    text-align: center;
+    line-height: 0.56rem;
+    color: #fff;
+    border-radius: 5px;
+}

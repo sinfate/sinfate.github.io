@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ch">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- meta使用viewport以确保页面可自由缩放 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 引入 jQuery 库 -->
+    <script src="http://apps.bdimg.com/libs/jquery/1.10.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+</head>
+
+<body>
+    <div class="top-box">
+        <a href="dizhi.html"><i class="fa fa-map-marker" aria-hidden="true"></i> 杨家沁苑南苑 <i
+                class="fa fa-caret-down"></i></a>
+    </div>
+    <div class="serch">
+        <button class="serchbtn"><i class="fa fa-search"></i> 搜索美团商家、商品名称</button>
+    </div>
+    <div class="menu">
+        <div class="menu-box">
+            <a href="###" class="fl claerfix">
+                <div>
+                    <img src="img/a.webp">
+                </div>
+                <span>美食</span>
+            </a>
+            <a href="###" class="fl claerfix">
+                <div>
+                    <img src="img/a.webp">
+                </div>
+                <span>美食</span>
+            </a>
+            <a href="###" class="fl claerfix">
+                <div>
+                    <img src="img/a.webp">
+                </div>
+                <span>美食</span>
+            </a>
+            <a href="###" class="fl claerfix">
+                <div>
+                    <img src="img/a.webp">
+                </div>
+                <span>美食</span>
+            </a>
+            <a href="###" class="fl claerfix">
+                <div>
+                    <img src="img/a.webp">
+                </div>
+                <span>美食</span>
+            </a>
+            <a href="###" class="fl claerfix">
+                <div>
+                    <img src="img/a.webp">
+                </div>
+                <span>美食</span>
+            </a>
+            <a href="###" class="fl claerfix">
+                <div>
+                    <img src="img/a.webp">
+                </div>
+                <span>美食</span>
+            </a>
+            <a href="###" class="fl claerfix">
+                <div>
+                    <img src="img/a.webp">
+                </div>
+                <span>美食</span>
+            </a>
+            <a href="###" class="fl claerfix">
+                <div>
+                    <img src="img/a.webp">
+                </div>
+                <span>美食</span>
+            </a>
+            <a href="###" class="fl claerfix">
+                <div>
+                    <img src="img/a.webp">
+                </div>
+                <span>美食</span>
+            </a>
+        </div>
+    </div>
+    <div class="middle-nav">
+        <div class="top-tc">
+            <h3>品质套餐</h3>
+            <div>搭配齐全吃得好</div>
+            <div><a href="###">立即抢购</a></div>
+            <img src="img/food.webp" alt="">
+        </div>
+        <div></div>
+        <div></div>
+    </div>
+    <script>
+        $(document).scroll(function () {
+            var scrolH = $(document).scrollTop();
+            var top = $('.serch');
+            var tpbox = $('.top-box');
+            // console.log(scrolH);
+            if(scrolH > 199){
+                top.addClass('topfixed');
+                tpbox.addClass('tbottom');
+            }else{
+                top.removeClass('topfixed');
+                tpbox.removeClass('tbottom');
+            }
+        })
+    </script>
+</body>
+
+</html>

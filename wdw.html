@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ch">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- meta使用viewport以确保页面可自由缩放 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 引入 jQuery 库 -->
+    <script src="http://apps.bdimg.com/libs/jquery/1.10.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/wsw.css">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+</head>
+
+<body>
+    <div class="top-box">
+        <a href="dizhi.html"><i class="fa fa-map-marker" aria-hidden="true"></i> 地址未找到 <i
+                class="fa fa-caret-down"></i></a>
+    </div>
+    <div class="serch">
+        <a href="search.html"><button class="serchbtn"><i class="fa fa-search"></i> 搜索美团商家、商品名称</button></a> 
+    </div>
+    <div class="wdw">
+        <div class="find">
+            <img src="img/dizhi.gif" alt="">
+        </div>
+        <h3>输入地址后才能订餐哦！</h3>
+        <a href="dizhi.html">手动选择地址</a>
+    </div>
+    <div class="bottomnav">
+        <div class="bottomicon">
+            <a href="">
+                <i class="fa fa-edge" aria-hidden="true"></i>
+                <span>首页</span>
+            </a>
+        </div>
+        <div class="bottomicon">
+            <a href="">
+                <i class="fa fa-search" aria-hidden="true"></i>
+                <span>发现</span>
+            </a>
+        </div>
+        <div class="bottomicon">
+            <a href="">
+                <i class="fa fa-building-o" aria-hidden="true"></i>
+                <a href="dd.html"><span>订单</span></a> 
+            </a>
+        </div>
+        <div class="bottomicon">
+            <a href="">
+                <i class="fa fa-user-o" aria-hidden="true"></i>
+                <span>我的</span>
+            </a>
+        </div>
+    </div>
+    <script>
+        $(document).scroll(function () {
+            var scrolH = $(document).scrollTop();
+            var top = $('.serch');
+            var tpbox = $('.top-box');
+            // console.log(scrolH);
+            if (scrolH > 199) {
+                top.addClass('topfixed');
+                tpbox.addClass('tbottom');
+            } else {
+                top.removeClass('topfixed');
+                tpbox.removeClass('tbottom');
+            }
+        })
+    </script>
+</body>
+
+</html>

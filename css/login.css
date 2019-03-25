@@ -1,0 +1,59 @@
+.title{
+    width: 3.75rem;
+    height: 1rem;
+    padding-top: 0.1rem;
+    font-size: 0.35rem;
+    color: #0085ff;
+    text-align: center;
+    line-height: 1rem;
+}
+.loginf{
+    width: 3rem;
+    height: 2.96rem;
+    margin: 0 auto;
+}
+.log{
+    width: 3rem;
+    height: 0.48rem;
+    margin-bottom: 0.16rem;
+    position: relative;
+}
+.log input{
+    width: 2.88rem;
+    height: 0.44rem;
+    padding-left: 0.1rem;
+    border: 1px solid #eee;
+    border-radius:5px;
+    color: #333; 
+}
+.log button{
+    position: absolute;
+    color: #ccc;
+    top: 30%;
+    right: 10px;
+    border: 0;
+    background-color: #fff;
+    font-size: 0.14rem;
+}
+.loginf p{
+    color: #999;
+}
+.lo-sbu{
+    width: 3rem;
+    height: 0.42rem;
+    font-size: 0.18rem;
+    background-color: #4cd96f;
+    border: 0;
+    margin: 0.3rem auto;
+    color: #fff;
+    line-height: 0.42rem;
+}
+.about a{
+    display: inline-block;
+    width: 3rem;
+    height: 0.14rem;
+    text-align: center;
+    line-height: 0.14rem;
+    margin: 0 auto; 
+    color: #999;
+}
